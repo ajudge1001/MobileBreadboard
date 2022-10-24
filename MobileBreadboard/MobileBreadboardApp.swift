@@ -9,11 +9,13 @@ import SwiftUI
 
 @main
 struct MobileBreadboardApp: App {
+
+   @StateObject var locations = Locations()
     var body: some Scene {
         WindowGroup {
-            TabView{
+            TabView {
                 NavigationView{
-                    ContentView(location: Locations().primary)
+                    ContentView(location: locations.primary )
                 }
                 .tabItem{
                     Image(systemName: "airplane.circle.fill")
@@ -30,7 +32,18 @@ struct MobileBreadboardApp: App {
                     Image(systemName: "star.fill")
                     Text("Locations")
                 }
+                
+                NavigationView
+                {
+                    TipsView()
+                }
+                .tabItem
+                {
+                    Image(systemName: "list.bullet")
+                    Text("Tips")
+                }
             }
+            .environmentObject(locations)
         }
     }
 }

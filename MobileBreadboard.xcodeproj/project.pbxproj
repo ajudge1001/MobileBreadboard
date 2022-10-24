@@ -19,6 +19,8 @@
 		6AA0ED2729062016002C3BED /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0ED2629062016002C3BED /* Location.swift */; };
 		6AA0ED292906289B002C3BED /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0ED282906289B002C3BED /* Locations.swift */; };
 		6AA0ED2B290632FF002C3BED /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0ED2A290632FF002C3BED /* WorldView.swift */; };
+		6AA0ED2D2906D650002C3BED /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0ED2C2906D650002C3BED /* Tip.swift */; };
+		6AA0ED2F2906D74C002C3BED /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0ED2E2906D74C002C3BED /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		6AA0ED2629062016002C3BED /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		6AA0ED282906289B002C3BED /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		6AA0ED2A290632FF002C3BED /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		6AA0ED2C2906D650002C3BED /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		6AA0ED2E2906D74C002C3BED /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				6A8D5E8C2904B45000A3A430 /* Assets.xcassets */,
 				6AA0ED2629062016002C3BED /* Location.swift */,
 				6AA0ED282906289B002C3BED /* Locations.swift */,
+				6AA0ED2C2906D650002C3BED /* Tip.swift */,
+				6AA0ED2E2906D74C002C3BED /* TipsView.swift */,
 				6A8D5E8E2904B45000A3A430 /* Preview Content */,
 			);
 			path = MobileBreadboard;
@@ -277,6 +283,8 @@
 				6A8D5E8B2904B44F00A3A430 /* ContentView.swift in Sources */,
 				6AA0ED2729062016002C3BED /* Location.swift in Sources */,
 				6AA0ED2B290632FF002C3BED /* WorldView.swift in Sources */,
+				6AA0ED2D2906D650002C3BED /* Tip.swift in Sources */,
+				6AA0ED2F2906D74C002C3BED /* TipsView.swift in Sources */,
 				6AA0ED292906289B002C3BED /* Locations.swift in Sources */,
 				6A8D5E892904B44F00A3A430 /* MobileBreadboardApp.swift in Sources */,
 			);
