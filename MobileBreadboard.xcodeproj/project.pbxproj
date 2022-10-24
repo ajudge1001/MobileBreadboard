@@ -14,6 +14,11 @@
 		6A8D5E9A2904B45000A3A430 /* MobileBreadboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8D5E992904B45000A3A430 /* MobileBreadboardTests.swift */; };
 		6A8D5EA42904B45000A3A430 /* MobileBreadboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8D5EA32904B45000A3A430 /* MobileBreadboardUITests.swift */; };
 		6A8D5EA62904B45000A3A430 /* MobileBreadboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8D5EA52904B45000A3A430 /* MobileBreadboardUITestsLaunchTests.swift */; };
+		6AA0ED2329061FD4002C3BED /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AA0ED2229061FD4002C3BED /* locations.json */; };
+		6AA0ED2529061FE3002C3BED /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AA0ED2429061FE3002C3BED /* tips.json */; };
+		6AA0ED2729062016002C3BED /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0ED2629062016002C3BED /* Location.swift */; };
+		6AA0ED292906289B002C3BED /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0ED282906289B002C3BED /* Locations.swift */; };
+		6AA0ED2B290632FF002C3BED /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0ED2A290632FF002C3BED /* WorldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		6A8D5E9F2904B45000A3A430 /* MobileBreadboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileBreadboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8D5EA32904B45000A3A430 /* MobileBreadboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileBreadboardUITests.swift; sourceTree = "<group>"; };
 		6A8D5EA52904B45000A3A430 /* MobileBreadboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileBreadboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6AA0ED2229061FD4002C3BED /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = locations.json; path = ../../../../Downloads/Assets/locations.json; sourceTree = "<group>"; };
+		6AA0ED2429061FE3002C3BED /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tips.json; path = ../../../../Downloads/Assets/tips.json; sourceTree = "<group>"; };
+		6AA0ED2629062016002C3BED /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		6AA0ED282906289B002C3BED /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		6AA0ED2A290632FF002C3BED /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +106,12 @@
 			children = (
 				6A8D5E882904B44F00A3A430 /* MobileBreadboardApp.swift */,
 				6A8D5E8A2904B44F00A3A430 /* ContentView.swift */,
+				6AA0ED2A290632FF002C3BED /* WorldView.swift */,
+				6AA0ED2229061FD4002C3BED /* locations.json */,
+				6AA0ED2429061FE3002C3BED /* tips.json */,
 				6A8D5E8C2904B45000A3A430 /* Assets.xcassets */,
+				6AA0ED2629062016002C3BED /* Location.swift */,
+				6AA0ED282906289B002C3BED /* Locations.swift */,
 				6A8D5E8E2904B45000A3A430 /* Preview Content */,
 			);
 			path = MobileBreadboard;
@@ -232,6 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A8D5E902904B45000A3A430 /* Preview Assets.xcassets in Resources */,
+				6AA0ED2529061FE3002C3BED /* tips.json in Resources */,
+				6AA0ED2329061FD4002C3BED /* locations.json in Resources */,
 				6A8D5E8D2904B45000A3A430 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A8D5E8B2904B44F00A3A430 /* ContentView.swift in Sources */,
+				6AA0ED2729062016002C3BED /* Location.swift in Sources */,
+				6AA0ED2B290632FF002C3BED /* WorldView.swift in Sources */,
+				6AA0ED292906289B002C3BED /* Locations.swift in Sources */,
 				6A8D5E892904B44F00A3A430 /* MobileBreadboardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

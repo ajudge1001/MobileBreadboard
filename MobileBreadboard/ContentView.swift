@@ -8,35 +8,40 @@
 import SwiftUI
 
 struct ContentView: View {
+    let location: Location
+    
     var body: some View {
         ScrollView {
-            Image("Road")
+            Image(location.heroPicture)
                 .resizable()
                 .scaledToFit()
             
-            Text("The Road")
+            Text(location.name)
                 .font(.largeTitle)
                 .bold()
                 .multilineTextAlignment(.center)
             
-            Text("Galway, Ireland")
+            Text(location.country)
                 .font(.title)
                 .foregroundColor(.secondary)
             
-            Text(" \"Why do I smell\" ")
+            Text(location.description)
+                .padding(.horizontal)
             
-            Text("Wonderful session. Thank you very much for putting this tutorial together. It was awesome. I am a newbie and learned quite a lot from this tutorial. I will check out the other tutorials that you mentioned. God bless you!")
+            Text("Did you know?")
                 .font(.title3)
                 .bold()
                 .padding(.top)
-            Text("If you've watched this and decided you want to continue learning SwiftUI, I have great news: I have a 100% free series of tutorials that teach you everything you need to know, including lots of videos, interactive tests, challenges, and more. It's called the 100 Days of SwiftUI, and you can find it here: ")
+            Text(location.more)
         }
-        .navigationTitle("Hello :)")
+        .navigationTitle("Discover")
     }
 }
-
+//Preview in Xcode format
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NavigationView{
+            ContentView(location: Location.example)
+        }
     }
 }

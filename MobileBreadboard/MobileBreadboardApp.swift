@@ -11,8 +11,25 @@ import SwiftUI
 struct MobileBreadboardApp: App {
     var body: some Scene {
         WindowGroup {
-            NavigationView{
-                ContentView()
+            TabView{
+                NavigationView{
+                    ContentView(location: Locations().primary)
+                }
+                .tabItem{
+                    Image(systemName: "airplane.circle.fill")
+                    Text("Discover")
+                    // use SF symbols to import the pre done apple icons 
+                }
+                
+                
+                NavigationView{
+                    WorldView()
+                }
+                .tabItem
+                {
+                    Image(systemName: "star.fill")
+                    Text("Locations")
+                }
             }
         }
     }
