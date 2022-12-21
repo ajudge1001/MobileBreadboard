@@ -28,7 +28,7 @@ struct ContentView: View {
             Text(location.description)
                 .padding(.horizontal)
             
-            Text("Did you know?")
+            Text("Did you know ?")
                 .font(.title3)
                 .bold()
                 .padding(.top)
